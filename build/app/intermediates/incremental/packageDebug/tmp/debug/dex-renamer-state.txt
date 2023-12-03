@@ -1,4 +1,4 @@
-#Wed Nov 15 15:27:36 BRT 2023
-base.0=/Users/jeferson/Projetos/Trilheiro/App/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Sun Dec 03 11:50:36 BRT 2023
+base.0=/Users/jeferson/Projetos/Trilheiro/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
