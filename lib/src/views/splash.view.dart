@@ -1,6 +1,6 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
-import 'home/home.view.dart';
+import 'package:trilheiro/src/views/login/login.view.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
@@ -23,7 +23,7 @@ class _SplashViewState extends State<SplashView> {
             duration: 3000,
             splashIconSize: 1000,
             splash: Image.asset('assets/images/splash.jpeg', centerSlice: const Rect.fromLTRB(0, 0, 1000, 1000),),
-            nextScreen: const HomeView(),
+            nextScreen: const LoginView(),
             splashTransition: SplashTransition.fadeTransition,            
             backgroundColor:const Color.fromARGB(255, 14, 70, 17))
       );

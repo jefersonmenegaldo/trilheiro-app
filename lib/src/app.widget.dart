@@ -3,6 +3,8 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'package:trilheiro/src/shared/themes/themes.dart';
 import 'package:trilheiro/src/shared/stores/app.store.dart';
 
+final scaffoldMessengerKey = GlobalKey<ScaffoldMessengerState>();
+
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
   @override
@@ -20,7 +22,10 @@ class AppWidget extends StatelessWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       routerDelegate: Modular.routerDelegate,
+      //routerConfig: Modular.routerConfig,
       routeInformationParser: Modular.routeInformationParser,
+      scaffoldMessengerKey: scaffoldMessengerKey,
+      
     );
   }
 }
